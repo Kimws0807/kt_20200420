@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>WEB - Create</title>
+    <title>WEB - 일정관리</title>
     <meta charset = "utf-8">
+    <link type="text/css" rel="stylesheet" href="/content/style.css">
 </head>
     <body>
         <h1><a href="/">WEB</a></h1>
         <ol>
-    {1}
+
         </ol>
-        <h2>Create</h2>
-        <form action="/create" method="post">
-            <p><input type="text" name="title" placeholder="title"></p>
-            <p><textarea name="desc" placeholder="description" rows="4" cols="50"></textarea></p>
-            <button type="submit">제출</button>
-        </form>
+        <h2>일정관리</h2>
+        <div id="form">
+            <form action="/create" method="post">
+                <p><input type="text" name="title" placeholder="일정제목"></p>
+                <p><textarea name="desc" placeholder="내용" rows="4" cols="50"></textarea></p>
+                <button type="submit">저장</button>
+            </form>
+        </div>
         {0}
     </body>
 </html>

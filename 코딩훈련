@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="/content/style.css">
+    </head>
+<body>
+        <div id="right">
+            <div>
+                <ul>
+                    <li><a href="https://regexone.com/l">정규표현식 연습</a></li>                  
+                </ul>
+            </div>
+        </div>
+</body>
+</html>

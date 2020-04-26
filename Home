@@ -10,11 +10,12 @@
     <div id="container">
         <div id="left">
             <ol>
-                
+            {2}  
             </ol>
-            <div id="login">
-                <a href="/login">Login</a>
-            </div>
+        <div>
+            <p>"{0}"</p>
+            <p>{1}</p>
+        </div>
         </div>
         <div id="right">
             <div>
@@ -23,7 +24,7 @@
                 <img src="https://source.unsplash.com/featured/?dog" width="30%" height="150">
             </div>
             <div >
-                <h3>일정관리에 오신 걸 환영합니다. 왼편의 로그인을 이용해 주세요</h3>
+                <h3> 왼쪽 List에 필요한 기능을 사용하세요.</h3>
             </div>
         </div>
     </div>
