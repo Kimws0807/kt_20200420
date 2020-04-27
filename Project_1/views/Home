@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB - Welcome!</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="/content/style.css">
+    </head>
+<body>
+    <h1><a href="/">WEB</a></h1>
+    <div id="container">
+        <div id="left">
+            <ol>
+            {2}  
+            </ol>
+        <div>
+            <p>"{0}"</p>
+            <p>{1}</p>
+        </div>
+        </div>
+        <div id="right">
+            <div>
+                <img src="https://source.unsplash.com/random" width="30%" height="150">
+                <img src="https://source.unsplash.com/featured/?cat" width="30%" height="150">
+                <img src="https://source.unsplash.com/featured/?dog" width="30%" height="150">
+            </div>
+            <div >
+                <h3> 왼쪽 List에 필요한 기능을 사용하세요.</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    

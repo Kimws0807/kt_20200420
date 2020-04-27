@@ -1,0 +1,32 @@
+h1{
+    border-bottom : 3px solid blue;
+    padding : 10px;
+    text-align : center;
+    margin-bottom : 0;
+}
+
+h2, #form{
+    text-align : center;
+}
+
+#container{
+            display: grid;
+            grid-template-columns: 0.15fr 1fr;
+}
+
+#left{
+        border-right: 3px solid blue;        
+}
+
+#left_in{
+            text-align : center;
+}
+
+#login{
+        padding-left : 10px;
+}
+
+#right{
+        padding-top : 30px;
+        padding-left : 30px;
+}
